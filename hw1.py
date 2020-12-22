@@ -1,0 +1,17 @@
+v1=input("Bir yazı yazın:")
+v2=int(input("Bir tam sayı girin:"))
+v3=float(input("Bir ondalıklı sayı girin:"))
+v4=input("Bir yazı yazın")
+v5=int(input("Bir tam sayı girin:"))
+
+t1=type(v1)
+t2=type(v2)
+t3=type(v3)
+t4=type(v4)
+t5=type(v5)
+
+print(f"1. ifade: {v1} ve türü:{t1}")
+print(f"2. ifade: {v2} ve türü:{t2}")
+print(f"3. ifade: {v3} ve türü:{t3}")
+print(f"4. ifade: {v4} ve türü:{t4}")
+print(f"5. ifade: {v5} ve türü:{t5}")
